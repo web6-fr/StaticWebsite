@@ -1,0 +1,8 @@
+# Ignore folders
+
+.c9
+.git
+.tmp
+node_modules
+bower_components
+dist

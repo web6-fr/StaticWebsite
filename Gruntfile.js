@@ -15,13 +15,6 @@ module.exports = function(grunt) {
       }
   });
 
-  // Fonts
-  // CDN
-  // Asset timestap
-  // Bump to manage app versions
-  // FTP SFTP upload
-  // .htaccess
-
   // Default task.
   grunt.registerTask('default', [
     'clean', 
@@ -34,6 +27,7 @@ module.exports = function(grunt) {
     'watch'
   ]);
 
+  // Dist task
   grunt.registerTask('dist', [
     'clean', 
     'ejs:dist',

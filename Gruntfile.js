@@ -22,7 +22,7 @@ module.exports = function(grunt) {
     'concat:dist',
     'sass:dist',
     'postcss:dev',
-    'copy:img',
+    'copy:dev',
     'connect:dev',
     'watch'
   ]);
@@ -37,6 +37,7 @@ module.exports = function(grunt) {
     'sass:dist',
     'purifycss',
     'postcss:dist',
+    'copy:dist',
     'imagemin:dist',
     'xml_sitemap:dist',
     'connect:dist'

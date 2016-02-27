@@ -7,7 +7,7 @@ module.exports = function (grunt, options) {
       files: [
         '<%= devPath %>/**/*.ejs'
       ],
-      tasks: ['newer:ejs:dist']
+      tasks: ['ejs:dist']
     },
     js: {
       options: {
@@ -34,7 +34,7 @@ module.exports = function (grunt, options) {
       files: [
         '<%= devPath %>/assets/img/**'
       ],
-      tasks: ['newer:copy:img']
+      tasks: ['newer:copy:dev']
     }
   };
 };

@@ -3,7 +3,7 @@ module.exports = function (grunt, options) {
     dev: {
       files: [
         { src: 'fonts/**', dest: '<%= tmpPath %>/assets/', expand: true, cwd: '<%= devPath %>/assets/' },
-        { src: 'img/**', dest: '<%= tmpPath %>/', expand: true, cwd: '<%= devPath %>/' }
+        { src: 'img/**', dest: '<%= tmpPath %>/assets/', expand: true, cwd: '<%= devPath %>/assets/' }
       ]
     },
     dist: {

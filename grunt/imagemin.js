@@ -5,7 +5,7 @@ module.exports = function (grunt, options) {
 	      expand: true,
 	      cwd: '<%= devPath %>/assets/img',
 	      src: ['**/*.{png,jpg,gif}'],
-	      dest: '<%= distPath %>/'
+	      dest: '<%= distPath %>/assets/img'
 	    }]
 	  }
 	};

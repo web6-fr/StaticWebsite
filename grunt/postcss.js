@@ -5,11 +5,7 @@ module.exports = function (grunt, options) {
 	      map: true,
 	      processors: [
 	        require('autoprefixer')({
-	          browsers: [
-	            '> 5% in FR', 
-	            'ie >= 8', 
-	            'last 2 versions'
-	          ],
+	          browserlist: ["last 2 version", "> 2%"],
 	          cascade: false,
 	          add: true,
 	          remove: false
@@ -23,11 +19,7 @@ module.exports = function (grunt, options) {
 	    options: {
 	      processors: [
 	        require('autoprefixer')({
-	          browsers: [
-	            '> 5% in FR', 
-	            'ie >= 8', 
-	            'last 2 versions'
-	          ],
+	          browserlist: ["> 5% in FR", "ie >= 8", "last 2 versions"],
 	          cascade: false,
 	          add: true,
 	          remove: false
